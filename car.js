@@ -74,3 +74,12 @@ function totalPrice (arr) {
  }
 
 console.log(flatten(myCollection));
+
+//DOM
+
+var carr1 = document.getElementById('carr1');
+carr1.addEventListener('click', showDetails);
+
+function showDetails() {
+  console.log(`clicked`);
+}
